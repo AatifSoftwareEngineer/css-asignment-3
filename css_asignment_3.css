@@ -1,0 +1,158 @@
+body{
+    background-color: yellow;
+    border: 10px solid black;
+}
+.main{
+/* display: flex; */
+/* border: 2PX solid black */
+background-color: yellow;
+}
+.header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-header {
+    border: 8px solid red;
+    width: 500px;
+    height: 180px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 1px purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    text-shadow: 2px 1px 2px purple;
+  }
+  .middle{
+    /* border: 10px solid green; */
+    /* height:800px; */
+  }
+  .address{
+    width: 200px;
+    height: 275px;
+    border: 8px solid red;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 1px 2px purple;
+    padding: 10px;
+    box-shadow: 10px 10px 5px purple;
+    margin: 10px;
+  }
+  
+  .address-image {
+    width: 200px;
+    height: 275px;
+    margin-top: -300px;
+    border: 8px solid red;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px purple;
+    display: flex;
+    float: right;
+    align-items: center;
+    background-color: white;
+    margin-right: 20px
+  }
+  .card3{
+    width: 200px;
+    height: 275px;
+    border: 8px solid red;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 1px 2px purple;
+    padding: 10px;
+    box-shadow: 10px 10px 5px purple;
+    margin: 20px;
+  }
+  .rating{
+    width: 200px;
+    height: 275px;
+    margin-top: -300px;
+    border: 8px solid red;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px purple;
+    /* display: flex; */
+    float: right;
+    /* align-items: center; */
+    background-color: white;
+    margin-right: 20px
+  }
+  /* .rating_h2{
+    justify-content: center;
+    margin-top: -200px;
+  } */
+  /* .input{
+   justify-content: center;
+   margin-top: -100px; 
+   display: flex;
+   float: left;
+  } */
+   .submit{
+    margin-left: 60px;
+   }
+   .number{
+    margin-left: 20px;
+   }
+  .footer{
+    width: 1000px;
+    height: 800px;
+    border: 10px solid black;
+    margin: 10px auto;
+    background-color: gold;
+  }
+  .fruits
+  {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 20px;
+    background-color: wheat;
+  }
+  .Vegetables
+  {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    float: right;
+    margin-right: 20px;
+    background-color: wheat;
+  }
+  .des{
+    width: 960px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 350px;
+    margin-right: 20px;
+    background-color: wheat;
+  }
+  .peragraph{
+    justify-content: center;
+    margin: 80px;
+    font-weight: 800;
+  }
+  .dec{
+    justify-content: center;
+    margin: 40px;
+    font-weight: 800;
+  }
+  .footer_1{
+    display: flex;
+    /* justify-content: center; */
+    position: fixed;
+    top: 550px;
+    left: 460px;
+    height: 100px;
+    width: 600px;
+    background-color:gainsboro;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+  }
